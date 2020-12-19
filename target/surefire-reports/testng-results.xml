@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="108627" started-at="2020-12-19T13:20:09Z" finished-at="2020-12-19T13:21:58Z">
+  <suite name="Suite" duration-ms="145725" started-at="2020-12-19T16:28:08Z" finished-at="2020-12-19T16:30:34Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="9967" started-at="2020-12-19T13:20:09Z" finished-at="2020-12-19T13:20:19Z">
+    <test name="LoginTest" duration-ms="11263" started-at="2020-12-19T16:28:08Z" finished-at="2020-12-19T16:28:19Z">
       <class name="testcases.LoginTest">
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="verifyLogin" duration-ms="4030" started-at="2020-12-19T13:20:10Z" data-provider="LoginCheck" finished-at="2020-12-19T13:20:14Z">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="verifyLogin" duration-ms="4848" started-at="2020-12-19T16:28:09Z" data-provider="LoginCheck" finished-at="2020-12-19T16:28:14Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="verifyLogin" duration-ms="3886" started-at="2020-12-19T13:20:15Z" data-provider="LoginCheck" finished-at="2020-12-19T13:20:18Z">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="verifyLogin" duration-ms="4217" started-at="2020-12-19T16:28:14Z" data-provider="LoginCheck" finished-at="2020-12-19T16:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -51,9 +51,9 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- testcases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test name="LoginTestNeg" duration-ms="2457" started-at="2020-12-19T13:20:19Z" finished-at="2020-12-19T13:20:21Z">
+    <test name="LoginTestNeg" duration-ms="3055" started-at="2020-12-19T16:28:19Z" finished-at="2020-12-19T16:28:22Z">
       <class name="testcases.LoginTestNeg">
-        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestNeg@37d31475]" name="verifyLogin" duration-ms="1943" started-at="2020-12-19T13:20:19Z" data-provider="LoginCheck" finished-at="2020-12-19T13:20:21Z">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestNeg@37d31475]" name="verifyLogin" duration-ms="2520" started-at="2020-12-19T16:28:19Z" data-provider="LoginCheck" finished-at="2020-12-19T16:28:22Z">
           <params>
             <param index="0">
               <value>
@@ -76,41 +76,41 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- testcases.LoginTestNeg -->
     </test> <!-- LoginTestNeg -->
-    <test name="ShoppingTest" duration-ms="16190" started-at="2020-12-19T13:20:21Z" finished-at="2020-12-19T13:20:38Z">
+    <test name="ShoppingTest" duration-ms="21253" started-at="2020-12-19T16:28:22Z" finished-at="2020-12-19T16:28:43Z">
       <class name="testcases.ShoppingTest">
-        <test-method status="PASS" signature="shopping()[pri:0, instance:testcases.ShoppingTest@2c039ac6]" name="shopping" duration-ms="15727" started-at="2020-12-19T13:20:21Z" finished-at="2020-12-19T13:20:37Z">
+        <test-method status="PASS" signature="shopping()[pri:0, instance:testcases.ShoppingTest@2c039ac6]" name="shopping" duration-ms="20773" started-at="2020-12-19T16:28:22Z" finished-at="2020-12-19T16:28:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shopping -->
       </class> <!-- testcases.ShoppingTest -->
     </test> <!-- ShoppingTest -->
-    <test name="ReOrderFromOrderHistory" duration-ms="25448" started-at="2020-12-19T13:20:38Z" finished-at="2020-12-19T13:21:03Z">
+    <test name="ReOrderFromOrderHistory" duration-ms="49704" started-at="2020-12-19T16:28:43Z" finished-at="2020-12-19T16:29:33Z">
       <class name="testcases.ReOrderFromOrderHistory">
-        <test-method status="PASS" signature="reOrder()[pri:0, instance:testcases.ReOrderFromOrderHistory@687080dc]" name="reOrder" duration-ms="24963" started-at="2020-12-19T13:20:38Z" finished-at="2020-12-19T13:21:03Z">
+        <test-method status="PASS" signature="reOrder()[pri:0, instance:testcases.ReOrderFromOrderHistory@687080dc]" name="reOrder" duration-ms="49230" started-at="2020-12-19T16:28:43Z" finished-at="2020-12-19T16:29:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reOrder -->
       </class> <!-- testcases.ReOrderFromOrderHistory -->
     </test> <!-- ReOrderFromOrderHistory -->
-    <test name="AddBillingAddress" duration-ms="22025" started-at="2020-12-19T13:21:03Z" finished-at="2020-12-19T13:21:25Z">
+    <test name="AddBillingAddress" duration-ms="23933" started-at="2020-12-19T16:29:33Z" finished-at="2020-12-19T16:29:57Z">
       <class name="testcases.AddBillingAddress">
-        <test-method status="PASS" signature="modificationInAddress()[pri:0, instance:testcases.AddBillingAddress@e874448]" name="modificationInAddress" duration-ms="21528" started-at="2020-12-19T13:21:03Z" finished-at="2020-12-19T13:21:25Z">
+        <test-method status="PASS" signature="modificationInAddress()[pri:0, instance:testcases.AddBillingAddress@e874448]" name="modificationInAddress" duration-ms="23406" started-at="2020-12-19T16:29:33Z" finished-at="2020-12-19T16:29:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modificationInAddress -->
       </class> <!-- testcases.AddBillingAddress -->
     </test> <!-- AddBillingAddress -->
-    <test name="ReportCustomerCare" duration-ms="32502" started-at="2020-12-19T13:21:25Z" finished-at="2020-12-19T13:21:58Z">
+    <test name="ReportCustomerCare" duration-ms="36469" started-at="2020-12-19T16:29:57Z" finished-at="2020-12-19T16:30:34Z">
       <class name="testcases.ReportCustomerCare">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="init" is-config="true" duration-ms="6369" started-at="2020-12-19T13:20:03Z" finished-at="2020-12-19T13:20:09Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="init" is-config="true" duration-ms="7072" started-at="2020-12-19T16:28:01Z" finished-at="2020-12-19T16:28:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="reportCustomerCare()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="reportCustomerCare" duration-ms="31995" started-at="2020-12-19T13:21:25Z" finished-at="2020-12-19T13:21:57Z">
+        <test-method status="PASS" signature="reportCustomerCare()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="reportCustomerCare" duration-ms="35976" started-at="2020-12-19T16:29:57Z" finished-at="2020-12-19T16:30:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportCustomerCare -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-12-19T13:21:58Z" finished-at="2020-12-19T13:21:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="tearDown" is-config="true" duration-ms="869" started-at="2020-12-19T16:30:34Z" finished-at="2020-12-19T16:30:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

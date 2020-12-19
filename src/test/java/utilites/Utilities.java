@@ -28,7 +28,7 @@ public class Utilities extends BaseClass {
 		screenshotName = d.toString().replace(":", "_").replace(" ", "_") + ".png";
 
 		FileUtils.copyFile(scrFile,
-				new File(System.getProperty("user.dir") + "\\target\\Screenshots\\" + screenshotName));
+				new File(System.getProperty("user.dir") + "\\target\\surefire-reports\\html\\" + screenshotName));
 
 	}
 

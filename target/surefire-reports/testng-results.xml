@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="108627" started-at="2020-12-19T13:20:09Z" finished-at="2020-12-19T13:21:58Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="9967" started-at="2020-12-19T13:20:09Z" finished-at="2020-12-19T13:20:19Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="verifyLogin" duration-ms="4030" started-at="2020-12-19T13:20:10Z" data-provider="LoginCheck" finished-at="2020-12-19T13:20:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasjeet@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jasjeet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jasjeet singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@33c7e1bb]" name="verifyLogin" duration-ms="3886" started-at="2020-12-19T13:20:15Z" data-provider="LoginCheck" finished-at="2020-12-19T13:20:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nev@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jasnav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Navpreet Kaur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test name="LoginTestNeg" duration-ms="2457" started-at="2020-12-19T13:20:19Z" finished-at="2020-12-19T13:20:21Z">
+      <class name="testcases.LoginTestNeg">
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTestNeg@37d31475]" name="verifyLogin" duration-ms="1943" started-at="2020-12-19T13:20:19Z" data-provider="LoginCheck" finished-at="2020-12-19T13:20:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasjeet@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jasjee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jasjeet singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- testcases.LoginTestNeg -->
+    </test> <!-- LoginTestNeg -->
+    <test name="ShoppingTest" duration-ms="16190" started-at="2020-12-19T13:20:21Z" finished-at="2020-12-19T13:20:38Z">
+      <class name="testcases.ShoppingTest">
+        <test-method status="PASS" signature="shopping()[pri:0, instance:testcases.ShoppingTest@2c039ac6]" name="shopping" duration-ms="15727" started-at="2020-12-19T13:20:21Z" finished-at="2020-12-19T13:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shopping -->
+      </class> <!-- testcases.ShoppingTest -->
+    </test> <!-- ShoppingTest -->
+    <test name="ReOrderFromOrderHistory" duration-ms="25448" started-at="2020-12-19T13:20:38Z" finished-at="2020-12-19T13:21:03Z">
+      <class name="testcases.ReOrderFromOrderHistory">
+        <test-method status="PASS" signature="reOrder()[pri:0, instance:testcases.ReOrderFromOrderHistory@687080dc]" name="reOrder" duration-ms="24963" started-at="2020-12-19T13:20:38Z" finished-at="2020-12-19T13:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reOrder -->
+      </class> <!-- testcases.ReOrderFromOrderHistory -->
+    </test> <!-- ReOrderFromOrderHistory -->
+    <test name="AddBillingAddress" duration-ms="22025" started-at="2020-12-19T13:21:03Z" finished-at="2020-12-19T13:21:25Z">
+      <class name="testcases.AddBillingAddress">
+        <test-method status="PASS" signature="modificationInAddress()[pri:0, instance:testcases.AddBillingAddress@e874448]" name="modificationInAddress" duration-ms="21528" started-at="2020-12-19T13:21:03Z" finished-at="2020-12-19T13:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modificationInAddress -->
+      </class> <!-- testcases.AddBillingAddress -->
+    </test> <!-- AddBillingAddress -->
+    <test name="ReportCustomerCare" duration-ms="32502" started-at="2020-12-19T13:21:25Z" finished-at="2020-12-19T13:21:58Z">
+      <class name="testcases.ReportCustomerCare">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="init" is-config="true" duration-ms="6369" started-at="2020-12-19T13:20:03Z" finished-at="2020-12-19T13:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="reportCustomerCare()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="reportCustomerCare" duration-ms="31995" started-at="2020-12-19T13:21:25Z" finished-at="2020-12-19T13:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportCustomerCare -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.ReportCustomerCare@cb51256]" name="tearDown" is-config="true" duration-ms="868" started-at="2020-12-19T13:21:58Z" finished-at="2020-12-19T13:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.ReportCustomerCare -->
+    </test> <!-- ReportCustomerCare -->
+  </suite> <!-- Suite -->
+</testng-results>

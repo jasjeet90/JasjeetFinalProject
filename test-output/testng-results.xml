@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14887" started-at="2020-12-19T13:18:38Z" finished-at="2020-12-19T13:18:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14887" started-at="2020-12-19T13:18:38Z" finished-at="2020-12-19T13:18:53Z">
+      <class name="testcases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.LoginTest@64485a47]" name="init" is-config="true" duration-ms="7270" started-at="2020-12-19T13:18:31Z" finished-at="2020-12-19T13:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@64485a47]" name="verifyLogin" duration-ms="6261" started-at="2020-12-19T13:18:39Z" data-provider="LoginCheck" finished-at="2020-12-19T13:18:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jasjeet@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jasjeet]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jasjeet singh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@64485a47]" name="verifyLogin" duration-ms="6950" started-at="2020-12-19T13:18:45Z" data-provider="LoginCheck" finished-at="2020-12-19T13:18:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nev@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jasnav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Navpreet Kaur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@64485a47]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-12-19T13:18:53Z" finished-at="2020-12-19T13:18:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

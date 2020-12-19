@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="base.ListenerClass" />
+	</listeners>
+	<test name="LoginTest">
+		<classes>
+			<class name="testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+	  <test thread-count="5" name="LoginTestNeg">
+    <classes>
+      <class name="testcases.LoginTestNeg"/>
+    </classes>
+  </test> <!-- LoginTestNeg -->
+	<test name="ShoppingTest">
+		<classes>
+			<class name="testcases.ShoppingTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="ReOrderFromOrderHistory">
+		<classes>
+			<class name="testcases.ReOrderFromOrderHistory" />
+		</classes>
+	</test> <!-- Test -->
+	  <test name="AddBillingAddress">
+    <classes>
+      <class name="testcases.AddBillingAddress"/>
+    </classes>
+    </test> <!-- Test -->
+      <test name="ReportCustomerCare">
+    <classes>
+      <class name="testcases.ReportCustomerCare"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
